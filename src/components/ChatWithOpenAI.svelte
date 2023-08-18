@@ -39,6 +39,7 @@
       toasts.success("Chat saved successfully");
     } catch (error) {
       console.error("Error saving chat:", error);
+      console.log(error.message);
       chat.saving = false; // Mark chat as not saved
       toasts.error("Error saving chat");
     }

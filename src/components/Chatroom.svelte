@@ -28,6 +28,7 @@
     //   uid: user.uid,
     // });
     message = "";
+    console.log("Message sent successfully");
   }
 </script>
 
