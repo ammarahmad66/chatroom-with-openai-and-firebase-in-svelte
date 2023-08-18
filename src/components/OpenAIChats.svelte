@@ -35,6 +35,7 @@
     querySnapshot.forEach(async (doc) => {
       await deleteDoc(doc.ref);
     });
+    console.log("Chat deleted successfully");
     toasts.success("Chat deleted successfully");
     loadInitialData();
   }
